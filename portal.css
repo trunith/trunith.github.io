@@ -1,0 +1,33 @@
+.heatx {
+  height: 50px;
+  color: white;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.pintx {
+  height: 5px;
+  color: #FF00FF;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.blutx {
+  height: 5px;
+  color: blue;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-decoration: none;
+}
+
+.nortx {
+  height: 5px;
+  color: white;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;  
+}
+
+body {
+  background-color: black;
+}
+
+.ttl {
+  margin-left: 1500px;
+  margin-top: -10px;
+}
