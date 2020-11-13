@@ -1,0 +1,73 @@
+.ttl {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Prata";
+    color: #D1D4DE;
+}
+
+.stlnks {
+    text-align: center;
+    color: #606680;
+    font-family: "Prata";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.amt {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Prata";
+    color: #767D9C;
+}
+
+.am {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Prata";
+    color: #6A718E;
+}
+
+body {
+    background-color: #4A4F63;
+    background-image: url(https://cdn.discordapp.com/attachments/774526060087476234/776272611470344202/br.png);
+}
+
+.lz {
+    opacity: 0.5;
+    transition-property: opacity;
+    transition-duration: 750ms;
+}
+
+.lz:hover {
+    opacity: 1;
+}
+
+.shraled {
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 1s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shraled:hover {
+  opacity: 1;
+}
+
+.imgc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #606680;
+  font-family: "Prata";
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.divider {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
