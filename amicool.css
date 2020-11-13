@@ -3,6 +3,8 @@ body {
 }
 
 .a {
+  font-size: 500px;
+  font-weight: bold;
   text-align: center;
   color: white;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
