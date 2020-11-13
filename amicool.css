@@ -3,9 +3,17 @@ body {
 }
 
 .a {
+  transition-property: opacity;
+  transition-duration: 1s;
+  display: block;
+  opacity: 0;
   font-size: 500px;
   font-weight: bold;
   text-align: center;
   color: white;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+.a:hover {
+  opacity: 1;
 }
