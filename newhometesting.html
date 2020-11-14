@@ -1,22 +1,71 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Trunith</title>
-  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="newhometesting.css">
-</head>
-<body>
+body {
+  background-color: #3A3335;
+  margin: 0 auto;
+}
 
-  <header>
-    <ul>
-      <a href="https://www.trunith.com">
-      <li class="tl">owo?<img class="tl" src="https://cdn.discordapp.com/attachments/774526060087476234/777016132275929088/tdcom.png">  </li>
-      </a>
-      <li>.</li>
-      <a href="https://www.trunith.com/about"><li class="lic">About</li></a>
-      <a href="https://www.trunith.com/contacts"><li class="lic">Contacts</li></a>
-    </ul>
-  </header>
-  
-  </body>
-</html>
+header {
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  background-color: #221D1E;
+  border-bottom: 1px solid #221D1E;
+  box-shadow: 0 1px 5px #211B1D;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li {
+  width: 80px;
+  display: inline-block;
+  color: #221D1E;
+  font-family: 'Prata', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.tl {
+  text-align: justify;
+  z-index: 11;
+  transition-property: opacity;
+  transition-duration: 500ms;
+  opacity: 0.8;
+  font-size: 40px;
+  color: #221D1E;
+  display: block;
+  width: 200px;
+  margin-top: -35px;
+  position: fixed;
+}
+
+.tl:hover {
+  opacity: 1;
+}
+
+.lic {
+  transition-duration: 500ms;
+  transition-property: color;
+  width: 100px;
+  display: inline-table;
+  color: #EB5E55;
+}
+
+.lic:hover {
+  color: #FF1406;
+}
+
+.licht {
+  transition-duration: 500ms;
+  transition-property: color;
+  width: 100px;
+  display: inline-table;
+  color: #FF1406;
+}
+
+.licht:hover {
+  color: #AC0B00;
+}
