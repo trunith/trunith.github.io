@@ -1,4 +1,5 @@
 .tl {
+  z-index: 11;
   transition-property: opacity;
   transition-duration: 500ms;
   opacity: 0.8;
@@ -8,18 +9,19 @@
   width: 100px;
   margin-top: 4px;
   margin-left: 4px;
+  position: fixed;
 }
 
 .tl:hover {
   opacity: 1;
 }
 
-header {
+.hdr {
   z-index: 10;
   width: 100%;
   position: fixed;
   background-color: #221D1E;
-  border-bottom: 1px solid #221D1E;
+  border-bottom: 4px solid #221D1E;
 }
 
 .BIG {
