@@ -7,6 +7,8 @@
   display: block;
   width: 100px;
   position: fixed;
+  margin-top: 4px;
+  margin-left: 4px;
 }
 
 .tl:hover {
@@ -18,7 +20,7 @@ header {
   width: 100%;
   position: fixed;
   background-color: #221D1E;
-  border-bottom: 50px solid #221D1E;
+  border-bottom: 1px solid #221D1E;
 }
 
 .BIG {
