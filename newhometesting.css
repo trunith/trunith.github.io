@@ -48,6 +48,7 @@ li {
 }
 
 .tl:hover {
+  font-size: 38px;
   width: 210px;
   opacity: 1;
 }
@@ -79,7 +80,7 @@ li {
   font-family: "Prata";
   font-size: 50px;
   color: #C6D8D3;
-  border: 1px solid #B0C2BD;
+  border: 2px solid #B0C2BD;
   border-radius: 15px;
   text-align: center;
   background: linear-gradient(0deg, rgba(23,14,18,0) 0%, rgba(176,195,189,0.2) 100%);
@@ -90,4 +91,23 @@ li {
   font-size: 45px;
   color: #A0D8C8;
   text-shadow: 0 0 4px #0C1814;
+}
+
+.dcc {
+  margin-left: 50%;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 30px;
+  font-family: "Ropa Sans";
+  font-weight: 900;
+  background-color: #4E5D94;
+  color: white;
+  border: 5px solid #7289DA;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #7289DA;
+}
+
+.dcci {
+  padding: -5px;
+  width: 30px;
 }
