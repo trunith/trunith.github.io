@@ -44,3 +44,14 @@ li {
 .tl:hover {
   opacity: 1;
 }
+
+.lic {
+  transition-duration: 500ms;
+  transition-property: color;
+  display: inline-table;
+  color: #EB5E55;
+}
+
+.lic:hover {
+  color: #FF1406;
+}
