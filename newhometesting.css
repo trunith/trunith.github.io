@@ -107,16 +107,16 @@ footer {
 }
 
 .tl {
+  text-align: justify;
   z-index: 11;
   transition-property: opacity;
   transition-duration: 500ms;
   opacity: 0.8;
-  font-size: 60px;
+  font-size: 40px;
   color: #FDF0D5;
   display: block;
   width: 200px;
   margin-top: -40px;
-  margin-left: -450px;
   position: fixed;
 }
 
