@@ -57,9 +57,28 @@ li {
   display: inline-table;
   color: #EB5E55;
   padding: 0 5px;
+  text-decoration: none;
 }
 
 .lic:hover {
   color: #FF1406;
   text-shadow: 2px 2px 2px #1C0F0E;
+}
+
+.nrpt {
+  transition-property: all;
+  transition-duration: 500ms;
+  font-weight: normal;
+  text-shadow: 2px 2px 4px #121816;
+  font-family: "Prata";
+  font-size: 50px;
+  color: #C6D8D3;
+  border: 1px solid #B0C2BD;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.nrpt:hover {
+  color: #A0D8C8;
+  text-shadow: 2px 2px 4px #0C1814;
 }
