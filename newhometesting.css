@@ -1,5 +1,5 @@
 body {
-  background-color: #FFF;
+  background-color: #3A3335;
   margin: 0 auto;
 }
 
@@ -7,8 +7,8 @@ header {
   z-index: 10;
   width: 100%;
   position: fixed;
-  background-color: #466995;
-  border-bottom: 1px solid #466995;
+  background-color: #221D1E;
+  border-bottom: 1px solid #221D1E;
 }
 
 ul {
