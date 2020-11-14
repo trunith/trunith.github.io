@@ -66,19 +66,22 @@ li {
 }
 
 .nrpt {
+  display: inline-table;
+  box-shadow: 2px 2px 4px #121816;;
   transition-property: all;
   transition-duration: 500ms;
   font-weight: normal;
-  text-shadow: 2px 2px 4px #121816;
+  text-shadow: 0 0 10px #B0C2BD;
   font-family: "Prata";
   font-size: 50px;
   color: #C6D8D3;
   border: 1px solid #B0C2BD;
   border-radius: 15px;
   text-align: center;
+  background: linear-gradient(0deg, rgba(23,14,18,0) 0%, rgba(176,195,189,0.2) 100%);
 }
 
 .nrpt:hover {
   color: #A0D8C8;
-  text-shadow: 2px 2px 4px #0C1814;
+  text-shadow: 0 0 4px #0C1814;
 }
