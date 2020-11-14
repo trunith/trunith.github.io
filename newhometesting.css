@@ -9,16 +9,22 @@ header {
   position: fixed;
   background-color: #221D1E;
   border-bottom: 1px solid #221D1E;
+  box-shadow: 0 1px 5px #211B1D;
 }
 
 ul {
   margin: 30px auto;
   padding: 0 20px;
-  text-align: center;
+  text-align: right;
+  
+}
+
+.big {
+  font-size: 500px;
 }
 
 li {
-  width: 80px;
+  width: 50px;
   display: inline-block;
   color: #221D1E;
   font-family: 'Prata', sans-serif;
@@ -47,11 +53,13 @@ li {
 
 .lic {
   transition-duration: 500ms;
-  transition-property: color;
+  transition-property: all;
   display: inline-table;
   color: #EB5E55;
+  padding: 0 5px;
 }
 
 .lic:hover {
   color: #FF1406;
+  text-shadow: 2px 2px 2px #1C0F0E;
 }
