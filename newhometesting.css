@@ -1,0 +1,30 @@
+.tl {
+  transition-property: opacity;
+  transition-duration: 500ms;
+  opacity: 0.8;
+  font-size: 60px;
+  color: #FDF0D5;
+  display: block;
+  width: 100px;
+  position: fixed;
+}
+
+.tl:hover {
+  opacity: 1;
+}
+
+header {
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  background-color: #221D1E;
+  border-bottom: 50px solid #221D1E;
+}
+
+.BIG {
+  font-size: 1000px;
+}
+
+body {
+  background-color: #3A3335;
+}
