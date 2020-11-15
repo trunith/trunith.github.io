@@ -51,6 +51,7 @@ li {
   font-size: 38px;
   width: 210px;
   opacity: 1;
+  margin-left: -.1%;
 }
 
 .lic {
@@ -111,7 +112,7 @@ li {
 }
 
 .dcc:hover {
-  margin-left: 37.7%;
+  margin-left: 38%;
   padding: 7px 12px;
   font-size: 32px;
 }
@@ -144,7 +145,7 @@ li {
 }
 
 .ytc:hover {
-  margin-left: 37.7%;
+  margin-left: 38%;
   padding: 7px 12px;
   font-size: 32px;
 }
@@ -169,8 +170,8 @@ li {
 
 .tpfp:hover {
   width: 150px;
-  margin-left: 45%;
-  margin-top: -2%;
+  margin-left: 46%;
+  margin-top: -1%;
 }
 
 /* Sidescroll disable */
