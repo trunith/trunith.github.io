@@ -55,6 +55,7 @@ li {
 }
 
 .lic {
+  font-size: 16px;
   transition-duration: 500ms;
   transition-property: all;
   display: inline-table;
