@@ -111,3 +111,22 @@ li {
   padding: -5px;
   width: 30px;
 }
+
+.ytc {
+  margin-left: 38.8%;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 30px;
+  font-family: "Ropa Sans";
+  font-weight: 900;
+  background-color: #D12122;
+  color: white;
+  border: 5px solid #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #D12122;
+}
+
+.ytci {
+  padding: -5px;
+  width: 30px;
+}
