@@ -69,8 +69,8 @@ li {
 }
 
 .nrpt {
+  margin-left: 37.7%;
   padding: 5px 10px;
-  margin: 10px;
   display: inline-block;
   box-shadow: 2px 2px 4px #121816;;
   transition-property: all;
@@ -87,6 +87,7 @@ li {
 }
 
 .nrpt:hover {
+  margin-left: 39%;
   padding: 2px 5px;
   font-size: 45px;
   color: #A0D8C8;
@@ -94,6 +95,8 @@ li {
 }
 
 .dcc {
+  transition-property: all;
+  transition-duration: 500ms;
   margin-left: 38.8%;
   display: inline-block;
   padding: 5px 10px;
@@ -107,12 +110,26 @@ li {
   box-shadow: 0 0 10px #7289DA;
 }
 
+.dcc:hover {
+  margin-left: 37.7%;
+  padding: 7px 12px;
+  font-size: 32px;
+}
+
 .dcci {
+  transition-property: all;
+  transition-duration: 500ms;
   padding: -5px;
   width: 30px;
 }
 
+.dcci:hover {
+  padding: -3px;
+}
+
 .ytc {
+  transition-property: all;
+  transition-duration: 500ms;
   margin-left: 38.8%;
   display: inline-block;
   padding: 5px 10px;
@@ -126,7 +143,25 @@ li {
   box-shadow: 0 0 10px #D12122;
 }
 
+.ytc:hover {
+  margin-left: 37.7%;
+  padding: 7px 12px;
+  font-size: 32px;
+}
+
 .ytci {
+  transition-property: all;
+  transition-duration: 500ms;
   padding: -5px;
   width: 30px;
+}
+
+.ytci:hover {
+  padding: 0;
+}
+
+.tpfp {
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 100px;
 }
