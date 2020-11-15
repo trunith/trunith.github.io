@@ -172,3 +172,9 @@ li {
   margin-left: 45%;
   margin-top: -2%;
 }
+
+/* Sidescroll disable */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
