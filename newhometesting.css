@@ -161,7 +161,14 @@ li {
 }
 
 .tpfp {
-  margin-left: 50%;
-  margin-right: 50%;
+  transition-property: all;
+  transition-duration: 500ms;
+  margin-left: 47.5%;
   width: 100px;
+}
+
+.tpfp:hover {
+  width: 150px;
+  margin-left: 45%;
+  margin-top: -2%;
 }
