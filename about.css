@@ -119,3 +119,9 @@ li {
   opacity: 0.7;
   text-shadow: 0 0 15px #D81E5B;
 }
+
+/* Sidescroll disable */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
