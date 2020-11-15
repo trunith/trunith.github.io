@@ -69,4 +69,53 @@ li {
   text-shadow: 2px 2px 2px #1C0F0E;
 }
 
+.slic {
+  transition-duration: 500ms;
+  transition-property: all;
+  display: inline-table;
+  color: #EB3024;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.slic:hover {
+  font-size: 20px;
+  color: #BC0B00;
+  text-shadow: 2px 2px 2px #1C0F0E;
+}
+
 /* Start your code here */
+
+.qq {
+  display: inherit;
+  transition-property: all;
+  transition-duration: 500ms;
+  color: #D81E5B;
+  font-family: "Prata";
+  font-size: 70px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qq:hover {
+  text-shadow: 0 0 15px #D81E5B;
+}
+
+.aa {
+  transition-property: all;
+  transition-duration: 500ms;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  text-align: center;
+  color: #D81E5B;
+  font-family: "Prata";
+  font-size: 27px;
+  opacity: 0.5;
+}
+
+.aa:hover {
+  opacity: 0.7;
+  text-shadow: 0 0 15px #D81E5B;
+}
