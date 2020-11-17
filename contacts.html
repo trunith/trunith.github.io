@@ -5,10 +5,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/774526060087476234/777690140940042270/legoshe.jpg"/>
   <link rel="stylesheet" href="contacts.css">
 </head>
 <body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="contacts.js"></script>
 
   <header>
     <ul>
@@ -25,8 +27,9 @@
   <br/><br/><br/><br/><br/>
 <!-- Start your code here -->
 
-<p class="dcct">My Discord Tag!</p>
- <p class="dcc">cef#7011 <img class="dcci" src="https://cdn.discordapp.com/attachments/774526060087476234/777316119656529950/discord.png"/></p>
+<p class="dcct" id="copytag">My Discord Tag!</p>
+
+<button id="p1" class="dcc" onclick="copyToClipboard('#p1')">cef#7011 <img class="dcci" src="https://cdn.discordapp.com/attachments/774526060087476234/777316119656529950/discord.png"/></button>
 
 <!-- End your code here -->
 </body>
