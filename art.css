@@ -93,10 +93,23 @@ html, body {
 /* Start your code here */
 
 .sld {
+  transition-property: all;
+  transition-duration: 500ms;
   width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20px;
+  border: 5px solid #D81E5B;
+  padding: 5px;
+  box-shadow: 0 0 10px #D81E5B;
+}
+
+.sld:hover {
+  border-radius: 40px;
+  padding: 0;
+  border: 1px solid #000000;
+  box-shadow: 0 0 10px #000000;
 }
 
 .sldt {
