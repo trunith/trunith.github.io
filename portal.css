@@ -46,3 +46,9 @@ body {
   margin-left: 85%;
   margin-top: -10px;
 }
+
+/* Sidescroll disable */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
