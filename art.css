@@ -109,36 +109,35 @@ html, body {
 
 /* Start your code here */
 
-.qq {
-  display: inherit;
+.sld {
   transition-property: all;
   transition-duration: 500ms;
-  color: #D81E5B;
-  font-family: "Prata";
-  font-size: 70px;
-  text-align: center;
+  width: 300px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20px;
+  border: 5px solid #D81E5B;
+  padding: 5px;
+  box-shadow: 0 0 10px #D81E5B;
 }
 
-.qq:hover {
-  text-shadow: 0 0 15px #D81E5B;
+.sld:hover {
+  border-radius: 40px;
+  padding: 0;
+  border: 1px solid #000000;
+  box-shadow: 0 0 10px #000000;
 }
 
-.aa {
+.sldt {
   transition-property: all;
   transition-duration: 500ms;
-  margin-left: auto;
-  margin-right: auto;
-  width: 600px;
-  text-align: center;
-  color: #D81E5B;
+  font-size: 30px;
   font-family: "Prata";
-  font-size: 27px;
-  opacity: 0.5;
+  color: #D81E5B;
+  text-align: center;
 }
 
-.aa:hover {
-  opacity: 0.7;
-  text-shadow: 0 0 15px #D81E5B;
+.sldt:hover {
+  text-shadow: 0 0 5px #D81E5B;
 }
