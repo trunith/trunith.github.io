@@ -1,0 +1,141 @@
+body {
+  background-color: #3A3335;
+  margin: 0 auto;
+}
+
+header {
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  background-color: #221D1E;
+  border-bottom: 1px solid #221D1E;
+  box-shadow: 0 1px 5px #211B1D;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: right;
+  
+}
+
+.big {
+  font-size: 500px;
+}
+
+li {
+  width: 50px;
+  display: inline-block;
+  color: #221D1E;
+  font-family: 'Prata', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.tl {
+  text-align: justify;
+  z-index: 11;
+  transition-property: all;
+  transition-duration: 500ms;
+  opacity: 0.8;
+  font-size: 40px;
+  color: #221D1E;
+  display: block;
+  width: 200px;
+  margin-top: -35px;
+  position: fixed;
+}
+
+.tl:hover {
+  font-size: 38px;
+  width: 210px;
+  opacity: 1;
+  margin-left: -.1%;
+}
+
+.lic {
+  transition-duration: 500ms;
+  transition-property: all;
+  display: inline-table;
+  color: #EB5E55;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.lic:hover {
+  font-size: 20px;
+  color: #FF1406;
+  text-shadow: 2px 2px 2px #1C0F0E;
+}
+
+.slic {
+  transition-duration: 500ms;
+  transition-property: all;
+  display: inline-table;
+  color: #EB3024;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+.slic:hover {
+  font-size: 20px;
+  color: #BC0B00;
+  text-shadow: 2px 2px 2px #1C0F0E;
+}
+
+.olic {
+  transition-duration: 500ms;
+  transition-property: all;
+  display: inline-table;
+  padding: 0 5px;
+  text-decoration: none;
+  color: #EB3024;
+  opacity: 0.5;
+}
+
+.olic:hover {
+  font-size: 20px;
+  color: #BC0B00;
+  text-shadow: 2px 2px 2px #1C0F0E;
+  opacity: 0.8;
+}
+
+/* Sidescroll disable */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Start your code here */
+
+.gs {
+  display: inline-block;
+  border: 1px solid red;
+  transition-property: all;
+  transition-duration: 500ms;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Prata";
+  color: #C6D8D3;
+}
+
+.gs:hover {
+  text-shadow: 0 0 4px #C6D8D3;
+}
+
+.gsc {
+  transition-property: all;
+  transition-duration: 500ms;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Prata";
+  color: #C6D8D3;
+  opacity: 0.5;
+}
+
+.gsc:hover {
+  opacity: 0.8;
+}
+
+/*End your code here */
