@@ -55,7 +55,6 @@ li {
 }
 
 .lic {
-  font-size: 16px;
   transition-duration: 500ms;
   transition-property: all;
   display: inline-table;
@@ -83,6 +82,29 @@ li {
   font-size: 20px;
   color: #BC0B00;
   text-shadow: 2px 2px 2px #1C0F0E;
+}
+
+.olic {
+  transition-duration: 500ms;
+  transition-property: all;
+  display: inline-table;
+  padding: 0 5px;
+  text-decoration: none;
+  color: #EB3024;
+  opacity: 0.5;
+}
+
+.olic:hover {
+  font-size: 20px;
+  color: #BC0B00;
+  text-shadow: 2px 2px 2px #1C0F0E;
+  opacity: 0.8;
+}
+
+/* Sidescroll disable */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Start your code here */
@@ -119,10 +141,4 @@ li {
 .aa:hover {
   opacity: 0.7;
   text-shadow: 0 0 15px #D81E5B;
-}
-
-/* Sidescroll disable */
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
 }
