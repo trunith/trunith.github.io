@@ -17,10 +17,25 @@
   text-decoration: none;
 }
 
+.ablutx {
+  height: 5px;
+  color: blue;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  text-decoration: none;
+  opacity: 0.4;
+}
+
 .nortx {
   height: 5px;
   color: white;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;  
+}
+
+.anortx {
+  height: 5px;
+  color: white;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;  
+  opacity: 0.1;
 }
 
 body {
@@ -28,6 +43,6 @@ body {
 }
 
 .ttl {
-  margin-left: 1500px;
+  margin-left: 85%;
   margin-top: -10px;
 }
