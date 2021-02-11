@@ -87,6 +87,12 @@ body {
   margin: 0 40% auto;
 }
 
+.ciimg {
+  height: 100px;
+  position: absolute;
+  margin: 0 40% auto;
+}
+
 /* Sidescroll disable */
 html, body {
     max-width: 100%;
