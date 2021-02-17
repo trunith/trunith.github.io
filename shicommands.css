@@ -45,6 +45,13 @@
   opacity: 0.1;
 }
 
+.aanortx {
+  height: 5px;
+  color: white;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  opacity:  0.3;
+}
+
 body {
   background-color: black;
 }
